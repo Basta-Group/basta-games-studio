@@ -10,7 +10,9 @@ const GamesPage: React.FC = () => {
       <PopularGamesSection title="NEW GAMES" />
 
       {/* All Games Section */}
-      <GamesSection />
+      <section className="md:py-16 bg-[#181a29]">
+        <GamesSection />
+      </section>
 
       {/* Contact Form Section */}
       <section id="contact">

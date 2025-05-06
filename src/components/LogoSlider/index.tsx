@@ -24,7 +24,6 @@ const LogoSlider: React.FC = () => {
       name: "Bet Partner 4",
       image: bet4,
     },
-    // Repeat for continuous effect
     {
       name: "Bet Partner 1",
       image: bet3,
@@ -61,24 +60,33 @@ const LogoSlider: React.FC = () => {
       {
         breakpoint: 640,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 2, // Updated to show 2 slides on smaller screens
         },
       },
     ],
   };
 
   return (
-    <section className="py-12 bg-[#0F1123]">
+    <section
+      className="py-12 bg-[#0F1123]"
+      role="region"
+      aria-label="Partner logos"
+    >
       <div className="max-w-7xl mx-auto">
-        <div className="logo-slider pb-10">
+        <div
+          className="logo-slider pb-10"
+          role="region"
+          aria-label="Logo carousel"
+        >
           <Slider {...settings}>
             {logos.map((logo, index) => (
-              <div key={index} className="pb-6">
+              <div key={index} className="pb-6" role="listitem">
                 <div className="flex items-center justify-center h-32 bg-[#151832] rounded-lg">
                   <img
                     src={logo.image}
-                    alt={logo.name}
-                    className="max-h-12 w-auto opacity-70 hover:opacity-100 transition-opacity duration-300"
+                    alt={`${logo.name} logo`}
+                    className="max-h-12 w-auto opacity-70 hover:opacity-100 transition-opacity duration-300 logo-img"
+                    role="img"
                   />
                 </div>
               </div>
@@ -147,6 +155,21 @@ const LogoSlider: React.FC = () => {
           height: 24px;
           border-radius: 50%;
           border: 2px solid #bcbec4;
+        }
+        .logo-slider .slick-dots {
+          gap: 32px;
+        }
+
+        /* Media query for small screens to adjust image size and padding */
+        @media (max-width: 640px) {
+          .logo-img {
+            max-height: 8rem; /* Smaller image size */
+            padding: 0.5rem; /* Reduce padding */
+          }
+              .logo-slider .slick-dots {
+          gap: 6px;
+        }
+
         }
       `}</style>
     </section>

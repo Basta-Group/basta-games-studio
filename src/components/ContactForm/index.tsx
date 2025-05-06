@@ -6,11 +6,28 @@ const ContactForm: React.FC = () => {
     email: "",
     message: "",
   });
+  const [responseMessage, setResponseMessage] = useState("");
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    // Handle form submission logic here
-    console.log(formData);
+    try {
+      const response = await fetch("http://localhost:3001/send-email", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
+      const result = await response.json();
+      if (result.success) {
+        setResponseMessage("Email sent successfully!");
+      } else {
+        setResponseMessage("Failed to send email: " + result.message);
+      }
+    } catch (error) {
+      console.error("Error sending email:", error);
+      setResponseMessage("An error occurred while sending the email.");
+    }
   };
 
   const handleChange = (
@@ -24,7 +41,10 @@ const ContactForm: React.FC = () => {
   };
 
   return (
-    <section className="py-10 bg-gradient-to-r from-[#1E255A] to-[#324ED7]">
+    <section
+      className="py-10 bg-gradient-to-r from-[#1E255A] to-[#324ED7]"
+      id="contact"
+    >
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className=" backdrop-blur-sm rounded-2xl p-2 md:p-12">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-start">
@@ -101,6 +121,17 @@ const ContactForm: React.FC = () => {
                   <span>SUBMIT ENQUIRY</span>
                   <span className="text-lg">→</span>
                 </button>
+                {responseMessage && (
+                  <p
+                    className={`mt-4 ${
+                      responseMessage.includes("successfully")
+                        ? "text-green-500"
+                        : "text-red-500"
+                    }`}
+                  >
+                    {responseMessage}
+                  </p>
+                )}
               </form>
             </div>
           </div>

@@ -7,6 +7,7 @@ import ContactPage from "./pages/ContactPage";
 import AboutPage from "./pages/AboutPage";
 import GameDetailsPage from "./pages/GameDetailsPage";
 import ScrollToTop from "./components/ScrollToTop";
+import DetailPage from "./components/detailPage";
 
 // Define your routes using `createBrowserRouter`
 export const routes = createBrowserRouter([
@@ -40,6 +41,10 @@ export const routes = createBrowserRouter([
       {
         path: "/about",
         element: <AboutPage />,
+      },
+      {
+        path: "/detail",
+        element: <DetailPage />,
       },
     ],
   },

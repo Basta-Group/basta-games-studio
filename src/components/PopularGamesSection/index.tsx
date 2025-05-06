@@ -1,10 +1,14 @@
 import React from "react";
 import Slider from "react-slick";
 import GameCard from "../GameCard";
-import gameImg1 from "../../assets/game-img-1.png";
-import gameImg2 from "../../assets/game-img-2.png";
-import gameImg3 from "../../assets/game-img-3.png";
-import gameImg4 from "../../assets/game-img-4.png";
+import game1 from "../../assets/game-images/basta-game-1.jpg";
+import game2 from "../../assets/game-images/basta-game-2.jpg";
+import game3 from "../../assets/game-images/basta-game-10.jpg";
+import game4 from "../../assets/game-images/basta-game-4.jpg";
+import game5 from "../../assets/game-images/basta-game-5.jpg";
+import game6 from "../../assets/game-images/basta-game-7.jpg";
+import game7 from "../../assets/game-images/basta-game-8.jpg";
+import game8 from "../../assets/game-images/basta-game-9.jpg";
 
 // Import Slick styles
 import "slick-carousel/slick/slick.css";
@@ -20,10 +24,11 @@ const PopularGamesSection: React.FC<PopularGamesSectionProps> = ({
   // Example popular games data
   const popularGames = [
     {
-      title: "BASTA MAGIC CASTLE",
-      image: gameImg1,
+      title: "WILD WEST",
+      image: game1,
       provider: "BASTA MAGIC CASTLE",
-      subtitle: "Fire On Fire.",
+      subtitle:
+        "Trigger Free Games, Multiply Wins, And Enjoy A Cascade Of Golden Wealth",
       color: "blue" as const,
       stats: {
         category: "Instant",
@@ -33,23 +38,11 @@ const PopularGamesSection: React.FC<PopularGamesSectionProps> = ({
       },
     },
     {
-      title: "BASTA CANDY SPLASH",
-      image: gameImg2,
-      provider: "BASTA CANDY SPLASH",
-      subtitle: "New Way Of Playing.",
-      color: "purple" as const,
-      stats: {
-        category: "Instant",
-        maxWin: "X3891",
-        volatility: "Low",
-        rtp: "95%",
-      },
-    },
-    {
-      title: "BASTA WILD GUARDIANS",
-      image: gameImg3,
-      provider: "BASTA WILD GUARDIANS",
-      subtitle: "Particles Out Of The Mechanics",
+      title: "VIKINGS THRONE OF POWER",
+      image: game2,
+      provider: "BASTA MAGIC CASTLE",
+      subtitle:
+        "Trigger Free Games, Multiply Wins, And Enjoy A Cascade Of Golden Wealth",
       color: "green" as const,
       stats: {
         category: "Instant",
@@ -59,10 +52,11 @@ const PopularGamesSection: React.FC<PopularGamesSectionProps> = ({
       },
     },
     {
-      title: "BASTA VIKING'S SPIRIT",
-      image: gameImg4,
-      provider: "BASTA VIKING'S SPIRIT",
-      subtitle: "Fire On Fire.",
+      title: "ROME EMPIRE",
+      image: game3,
+      provider: "BASTA MAGIC CASTLE",
+      subtitle:
+        "Trigger Free Games, Multiply Wins, And Enjoy A Cascade Of Golden Wealth",
       color: "orange" as const,
       stats: {
         category: "Instant",
@@ -71,12 +65,26 @@ const PopularGamesSection: React.FC<PopularGamesSectionProps> = ({
         rtp: "95%",
       },
     },
-    // Repeat games to show continuous sliding
     {
-      title: "BASTA MAGIC CASTLE",
-      image: gameImg1,
+      title: "VIKINGS SPIRIT",
+      image: game4,
       provider: "BASTA MAGIC CASTLE",
-      subtitle: "Fire On Fire.",
+      subtitle:
+        "Trigger Free Games, Multiply Wins, And Enjoy A Cascade Of Golden Wealth",
+      color: "purple" as const,
+      stats: {
+        category: "Instant",
+        maxWin: "X3891",
+        volatility: "Low",
+        rtp: "95%",
+      },
+    },
+    {
+      title: "BASTA VIKINGS BATTLE",
+      image: game5,
+      provider: "BASTA MAGIC CASTLE",
+      subtitle:
+        "Trigger Free Games, Multiply Wins, And Enjoy A Cascade Of Golden Wealth",
       color: "blue" as const,
       stats: {
         category: "Instant",
@@ -86,10 +94,25 @@ const PopularGamesSection: React.FC<PopularGamesSectionProps> = ({
       },
     },
     {
-      title: "BASTA CANDY SPLASH",
-      image: gameImg2,
-      provider: "BASTA CANDY SPLASH",
-      subtitle: "New Way Of Playing.",
+      title: "BASTA TACTICAL RUSH",
+      image: game6,
+      provider: "BASTA MAGIC CASTLE",
+      subtitle:
+        "Trigger Free Games, Multiply Wins, And Enjoy A Cascade Of Golden Wealth",
+      color: "green" as const,
+      stats: {
+        category: "Instant",
+        maxWin: "X3891",
+        volatility: "Low",
+        rtp: "95%",
+      },
+    },
+    {
+      title: "BASTA SPACE HUNTER",
+      image: game7,
+      provider: "BASTA MAGIC CASTLE",
+      subtitle:
+        "Trigger Free Games, Multiply Wins, And Enjoy A Cascade Of Golden Wealth",
       color: "purple" as const,
       stats: {
         category: "Instant",
@@ -98,8 +121,21 @@ const PopularGamesSection: React.FC<PopularGamesSectionProps> = ({
         rtp: "95%",
       },
     },
+    {
+      title: "BASTA SEA OF RICHES",
+      image: game8,
+      provider: "BASTA MAGIC CASTLE",
+      subtitle:
+        "Trigger Free Games, Multiply Wins, And Enjoy A Cascade Of Golden Wealth",
+      color: "orange" as const,
+      stats: {
+        category: "Instant",
+        maxWin: "X3891",
+        volatility: "Low",
+        rtp: "95%",
+      },
+    },
   ];
-
   const settings = {
     dots: true,
     infinite: true,
@@ -137,11 +173,11 @@ const PopularGamesSection: React.FC<PopularGamesSectionProps> = ({
   const lastPart = titleParts[titleParts.length - 1];
 
   return (
-    <section className="py-16 bg-[#181a29]">
+    <section className="pt-6 pb-16 md:py-16 bg-[#181a29]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Title */}
-        <div className="mb-12">
-          <h2 className="text-4xl font-bold text-center">
+        <div className="mb-2 md:mb-12">
+          <h2 className="text-2xl md:text-4xl font-bold text-center">
             <span className="text-white">{firstPart}</span>{" "}
             <span className="text-[#FF6B6B]">{lastPart}</span>
           </h2>
@@ -238,6 +274,10 @@ const PopularGamesSection: React.FC<PopularGamesSectionProps> = ({
             right: -30px;
           }
         }
+          @media (max-width: 768px) {
+    .game-slider-container .slick-dots {
+      gap: 6px; /* smaller gap for small screens */
+    }
       `}</style>
     </section>
   );

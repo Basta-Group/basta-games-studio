@@ -4,23 +4,23 @@ import ContactForm from "../ContactForm";
 import GamesSection from "../GamesSection";
 import HeroSlider from "../HeroSlider";
 import PopularGamesSection from "../PopularGamesSection";
-import LogoSlider from "../LogoSlider";
+// import LogoSlider from "../LogoSlider";
 import AboutBastaPlay from "../AboutBastaPlay";
 
 const Home: React.FC = () => {
   return (
-    <div className="min-h-screen bg-[#0B0B13]">
+    <div className="min-h-screen bg-[#0B0B13] overflow-x-hidden">
       {/* Hero Section */}
       <HeroSlider />
 
       {/* Popular Games Slider Section */}
       <PopularGamesSection />
 
-      {/* About Basta Play Section */}
+      {/* About BastaPlay Section */}
       <AboutBastaPlay />
 
       {/* All Games Section */}
-      <GamesSection />
+      <GamesSection hideFilterBar={true} />
 
       {/* Contact Form Section */}
       <section id="contact">
@@ -28,7 +28,7 @@ const Home: React.FC = () => {
       </section>
 
       {/* Partners Logo Slider */}
-      <LogoSlider />
+      {/* <LogoSlider /> */}
     </div>
   );
 };
