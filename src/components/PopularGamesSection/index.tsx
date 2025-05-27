@@ -31,7 +31,7 @@ const PopularGamesSection: React.FC<PopularGamesSectionProps> = ({
         "Trigger Free Games, Multiply Wins, And Enjoy A Cascade Of Golden Wealth",
       color: "blue" as const,
       stats: {
-        category: "Instant",
+        category: "Slot",
         maxWin: "X3891",
         volatility: "Low",
         rtp: "95%",
@@ -45,7 +45,7 @@ const PopularGamesSection: React.FC<PopularGamesSectionProps> = ({
         "Trigger Free Games, Multiply Wins, And Enjoy A Cascade Of Golden Wealth",
       color: "green" as const,
       stats: {
-        category: "Instant",
+        category: "Slot",
         maxWin: "X3891",
         volatility: "Low",
         rtp: "95%",
@@ -59,7 +59,7 @@ const PopularGamesSection: React.FC<PopularGamesSectionProps> = ({
         "Trigger Free Games, Multiply Wins, And Enjoy A Cascade Of Golden Wealth",
       color: "orange" as const,
       stats: {
-        category: "Instant",
+        category: "Slot",
         maxWin: "X3891",
         volatility: "Low",
         rtp: "95%",
@@ -73,7 +73,7 @@ const PopularGamesSection: React.FC<PopularGamesSectionProps> = ({
         "Trigger Free Games, Multiply Wins, And Enjoy A Cascade Of Golden Wealth",
       color: "purple" as const,
       stats: {
-        category: "Instant",
+        category: "Slot",
         maxWin: "X3891",
         volatility: "Low",
         rtp: "95%",
@@ -87,7 +87,7 @@ const PopularGamesSection: React.FC<PopularGamesSectionProps> = ({
         "Trigger Free Games, Multiply Wins, And Enjoy A Cascade Of Golden Wealth",
       color: "blue" as const,
       stats: {
-        category: "Instant",
+        category: "Slot",
         maxWin: "X3891",
         volatility: "Low",
         rtp: "95%",
@@ -101,7 +101,7 @@ const PopularGamesSection: React.FC<PopularGamesSectionProps> = ({
         "Trigger Free Games, Multiply Wins, And Enjoy A Cascade Of Golden Wealth",
       color: "green" as const,
       stats: {
-        category: "Instant",
+        category: "Slot",
         maxWin: "X3891",
         volatility: "Low",
         rtp: "95%",
@@ -115,7 +115,7 @@ const PopularGamesSection: React.FC<PopularGamesSectionProps> = ({
         "Trigger Free Games, Multiply Wins, And Enjoy A Cascade Of Golden Wealth",
       color: "purple" as const,
       stats: {
-        category: "Instant",
+        category: "Slot",
         maxWin: "X3891",
         volatility: "Low",
         rtp: "95%",
@@ -129,7 +129,7 @@ const PopularGamesSection: React.FC<PopularGamesSectionProps> = ({
         "Trigger Free Games, Multiply Wins, And Enjoy A Cascade Of Golden Wealth",
       color: "orange" as const,
       stats: {
-        category: "Instant",
+        category: "Slot",
         maxWin: "X3891",
         volatility: "Low",
         rtp: "95%",

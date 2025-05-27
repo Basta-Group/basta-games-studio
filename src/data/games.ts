@@ -41,7 +41,7 @@ const dummyFeatures = [
   "Wild West Theme With Immersive Graphics",
   "Deno's Bounty Bonus Round With Multipliers",
   "Free Spins With Expanding Wilds",
-  "Mini-Games With Instant Cash Prizes",
+  "Mini-Games With Slot Cash Prizes",
   "Progressive Jackpot System",
 ];
 
@@ -54,7 +54,7 @@ export const games: GameData[] = [
     subtitle: "Fire On Fire.",
     description: dummyDescription,
     features: dummyFeatures,
-    stats: { category: "Instant", maxWin: "X3891", volatility: "Low", rtp: "95%" },
+    stats: { category: "Slot", maxWin: "X3891", volatility: "Low", rtp: "95%" },
     color: "blue",
   },
   {
@@ -64,7 +64,7 @@ export const games: GameData[] = [
     subtitle: "New Way Of Playing.",
     description: dummyDescription,
     features: dummyFeatures,
-    stats: { category: "Instant", maxWin: "X3891", volatility: "Low", rtp: "95%" },
+    stats: { category: "Slot", maxWin: "X3891", volatility: "Low", rtp: "95%" },
     color: "purple",
   },
   {
@@ -74,7 +74,7 @@ export const games: GameData[] = [
     subtitle: "Particles Out Of The Mechanics",
     description: dummyDescription,
     features: dummyFeatures,
-    stats: { category: "Instant", maxWin: "X3891", volatility: "Low", rtp: "95%" },
+    stats: { category: "Slot", maxWin: "X3891", volatility: "Low", rtp: "95%" },
     color: "green",
   },
   {
@@ -84,7 +84,7 @@ export const games: GameData[] = [
     subtitle: "Fire On Fire.",
     description: dummyDescription,
     features: dummyFeatures,
-    stats: { category: "Instant", maxWin: "X3891", volatility: "Low", rtp: "95%" },
+    stats: { category: "Slot", maxWin: "X3891", volatility: "Low", rtp: "95%" },
     color: "orange",
   },
   // All Games Section
@@ -95,7 +95,7 @@ export const games: GameData[] = [
     subtitle: "Trigger Free Games, Multiply Wins, And Enjoy A Cascade Of Golden Wealth",
     description: dummyDescription,
     features: dummyFeatures,
-    stats: { category: "Instant", maxWin: "X3891", volatility: "Low", rtp: "95%" },
+    stats: { category: "Slot", maxWin: "X3891", volatility: "Low", rtp: "95%" },
     color: "blue",
   },
   {
@@ -105,7 +105,7 @@ export const games: GameData[] = [
     subtitle: "Trigger Free Games, Multiply Wins, And Enjoy A Cascade Of Golden Wealth",
     description: dummyDescription,
     features: dummyFeatures,
-    stats: { category: "Instant", maxWin: "X3891", volatility: "Low", rtp: "95%" },
+    stats: { category: "Slot", maxWin: "X3891", volatility: "Low", rtp: "95%" },
     color: "green",
   },
   {
@@ -115,7 +115,7 @@ export const games: GameData[] = [
     subtitle: "Trigger Free Games, Multiply Wins, And Enjoy A Cascade Of Golden Wealth",
     description: dummyDescription,
     features: dummyFeatures,
-    stats: { category: "Instant", maxWin: "X3891", volatility: "Low", rtp: "95%" },
+    stats: { category: "Slot", maxWin: "X3891", volatility: "Low", rtp: "95%" },
     color: "purple",
   },
   {
@@ -125,7 +125,7 @@ export const games: GameData[] = [
     subtitle: "Trigger Free Games, Multiply Wins, And Enjoy A Cascade Of Golden Wealth",
     description: dummyDescription,
     features: dummyFeatures,
-    stats: { category: "Instant", maxWin: "X3891", volatility: "Low", rtp: "95%" },
+    stats: { category: "Slot", maxWin: "X3891", volatility: "Low", rtp: "95%" },
     color: "orange",
   },
   {
@@ -135,7 +135,7 @@ export const games: GameData[] = [
     subtitle: "Trigger Free Games, Multiply Wins, And Enjoy A Cascade Of Golden Wealth",
     description: dummyDescription,
     features: dummyFeatures,
-    stats: { category: "Instant", maxWin: "X3891", volatility: "Low", rtp: "95%" },
+    stats: { category: "Slot", maxWin: "X3891", volatility: "Low", rtp: "95%" },
     color: "blue",
   },
   {
@@ -145,7 +145,7 @@ export const games: GameData[] = [
     subtitle: "Trigger Free Games, Multiply Wins, And Enjoy A Cascade Of Golden Wealth",
     description: dummyDescription,
     features: dummyFeatures,
-    stats: { category: "Instant", maxWin: "X3891", volatility: "Low", rtp: "95%" },
+    stats: { category: "Slot", maxWin: "X3891", volatility: "Low", rtp: "95%" },
     color: "purple",
   },
   {
@@ -155,7 +155,7 @@ export const games: GameData[] = [
     subtitle: "Trigger Free Games, Multiply Wins, And Enjoy A Cascade Of Golden Wealth",
     description: dummyDescription,
     features: dummyFeatures,
-    stats: { category: "Instant", maxWin: "X3891", volatility: "Low", rtp: "95%" },
+    stats: { category: "Slot", maxWin: "X3891", volatility: "Low", rtp: "95%" },
     color: "green",
   },
   {
@@ -165,7 +165,7 @@ export const games: GameData[] = [
     subtitle: "Trigger Free Games, Multiply Wins, And Enjoy A Cascade Of Golden Wealth",
     description: dummyDescription,
     features: dummyFeatures,
-    stats: { category: "Instant", maxWin: "X3891", volatility: "Low", rtp: "95%" },
+    stats: { category: "Slot", maxWin: "X3891", volatility: "Low", rtp: "95%" },
     color: "orange",
   },
 ]; 

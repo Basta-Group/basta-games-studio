@@ -15,7 +15,7 @@ const dummyGame = {
     "Wild West Theme With Immersive Graphics",
     "Deno's Bounty Bonus Round With Multipliers",
     "Free Spins With Expanding Wilds",
-    "Mini-Games With Instant Cash Prizes",
+    "Mini-Games With Slot Cash Prizes",
     "Progressive Jackpot System",
   ],
 };
