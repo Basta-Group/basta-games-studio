@@ -2,14 +2,18 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import bet2 from "../../assets/logo-slider/bet-2.png";
-import bet3 from "../../assets/logo-slider/bet-3.png";
-import bet4 from "../../assets/logo-slider/bet-4.png";
+import bet2 from "../../assets/game-studio/bet-basta.png";
+import bet3 from "../../assets/game-studio/bet-basta-play.png";
+import bgImage from "../../assets/game-studio/black-bg.png";
 
 const LogoSlider: React.FC = () => {
   const logos = [
     {
-      name: "Bet Partner 1",
+      name: "Bet Partner 2",
+      image: bet2,
+    },
+    {
+      name: "Bet Partner 3",
       image: bet3,
     },
     {
@@ -21,16 +25,12 @@ const LogoSlider: React.FC = () => {
       image: bet3,
     },
     {
-      name: "Bet Partner 4",
-      image: bet4,
-    },
-    {
-      name: "Bet Partner 1",
-      image: bet3,
-    },
-    {
       name: "Bet Partner 2",
       image: bet2,
+    },
+    {
+      name: "Bet Partner 3",
+      image: bet3,
     },
   ];
 
@@ -68,10 +68,10 @@ const LogoSlider: React.FC = () => {
 
   return (
     <section
-      className="py-12 bg-[#0F1123]"
-      role="region"
-      aria-label="Partner logos"
+      className={`text-white bg-[#1A1A1A]  py-17 md:pt-30   width-[100%]  px-6 bg-cover bg-no-repeat bg-top  `}
+      style={{ backgroundImage: `url(${bgImage})` }}
     >
+      {" "}
       <div className="max-w-7xl mx-auto">
         <div
           className="logo-slider pb-10"
@@ -81,11 +81,11 @@ const LogoSlider: React.FC = () => {
           <Slider {...settings}>
             {logos.map((logo, index) => (
               <div key={index} className="pb-6" role="listitem">
-                <div className="flex items-center justify-center h-32 bg-[#151832] rounded-lg">
+                <div className="flex items-center justify-center h-32 bg-[#28292C] rounded-lg">
                   <img
                     src={logo.image}
                     alt={`${logo.name} logo`}
-                    className="max-h-12 w-auto opacity-70 hover:opacity-100 transition-opacity duration-300 logo-img"
+                    className="max-h-[80%] w-auto max-w-[80%] opacity-70 hover:opacity-100 transition-opacity duration-300 logo-img"
                     role="img"
                   />
                 </div>
@@ -94,7 +94,6 @@ const LogoSlider: React.FC = () => {
           </Slider>
         </div>
       </div>
-
       <style>{`
         .logo-slider .slick-track {
           display: flex;
