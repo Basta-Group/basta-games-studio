@@ -50,13 +50,13 @@ const slides = [
     buttons: [
       {
         text: "VIEW OUR GAMES",
-        href: "/games",
+        href: "/",
         className:
           "bg-[#FFD700] text-black px-6 md:px-8 py-2.5 md:py-3 rounded-4xl font-medium hover:bg-[#FFD700]/90 transition-colors text-sm md:text-base",
       },
       {
         text: "CONTACT US",
-        href: "/contact",
+        href: "/",
         className:
           "bg-[#28292C] backdrop-blur-[2px] text-white px-6 md:px-8 py-2.5 md:py-3 rounded-4xl font-medium hover:bg-white/30 transition-colors text-sm md:text-base",
       },
@@ -95,13 +95,13 @@ const slides = [
     buttons: [
       {
         text: "VIEW OUR GAMES",
-        href: "/games",
+        href: "/",
         className:
           "bg-[#FFD700] text-black px-6 md:px-8 py-2.5 md:py-3 rounded-4xl font-medium hover:bg-[#FFD700]/90 transition-colors text-sm md:text-base",
       },
       {
         text: "CONTACT US",
-        href: "/contact",
+        href: "/",
         className:
           "bg-[#28292C] backdrop-blur-[2px] text-white px-6 md:px-8 py-2.5 md:py-3 rounded-4xl font-medium hover:bg-white/30 transition-colors text-sm md:text-base",
       },
