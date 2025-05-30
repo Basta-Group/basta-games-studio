@@ -77,7 +77,7 @@ const slides = [
       {
         src: bannerImg1,
         alt: "Girl character in desktop view",
-        className: "absolute right-0 top-35 w-[50%] max-w-[400px] h-auto",
+        className: "absolute right-0 top-40 w-[50%] max-w-[400px] h-auto",
       },
     ],
   },
