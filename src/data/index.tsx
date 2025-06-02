@@ -3,6 +3,7 @@ import bastaLogo from "../../assets/game-studio/studio-logo.png";
 import { Link } from "react-router-dom";
 import telegramImg from "../../assets/game-studio/twitter.svg";
 import linkedinImg from "../../assets/game-studio/linkdin.svg";
+import emailImg from "../../assets/game-studio/email-footer.png";
 
 const Footer: React.FC = () => {
   return (
@@ -196,7 +197,14 @@ const Footer: React.FC = () => {
               >
                 <img src={linkedinImg} alt="LinkedIn" className="h-10 w-10" />
               </a>
-              
+              <a
+                href="mailto:contact@bastagames.com"
+                className="text-white hover:text-blue-400  p-2 rounded-full"
+                title="Email us"
+                aria-label="Email"
+              >
+                <img src={emailImg} alt="Email" className="h-10 w-10" />
+              </a>
             </div>
             {/* <div className="flex flex-col space-y-1">
               <a

@@ -26,12 +26,12 @@ const Home: React.FC = () => {
       <ImageTextSection
         imageSrc={ImageTextSectionImg4} // Replace with the appropriate image source for the Viking illustration
         heading="FIND OUT MORE ABOUT OUR COMPANY"
-        subheading="Welcome to Basta Play - Where Imagination Meets Innovation!"
+        subheading="Welcome to Basta Games Studio - Where Imagination Meets Innovation!"
         paragraphLines={[
-          "At Basta Play, We Are Passionate About Creating Captivating Gaming Experiences That Engage, Entertain, and Inspire Players Worldwide.",
+          "At Basta Games Studio, We Are Passionate About Creating Captivating Gaming Experiences That Engage, Entertain, and Inspire Players Worldwide.",
           "A Leading Creative Studio, We Specialize in The Design of High-Quality Slot Games, Character Concepts, Immersive Backgrounds, Interactive Gaming Elements, and Cutting-Edge Gaming Interfaces.",
           "Our Team of Seasoned Designers, Artists, and Developers is Dedicated to Pushing The Boundaries of Creativity and Technology. We Bring Your Ideas to Life With Stunning Visuals, Engaging Gameplay Mechanics, and User-Friendly Interfaces That Enhance Player Experiences and Drive Business Success.",
-          "At Basta Play, We Don’t Just Design Games; We Create Experiences. Let us Help You Bring Your Vision to Life With Our Comprehensive Range of Design Services, Tailored to Meet The Unique Needs of Your Project.",
+          "At Basta Games Studio, We Don’t Just Design Games; We Create Experiences. Let us Help You Bring Your Vision to Life With Our Comprehensive Range of Design Services, Tailored to Meet The Unique Needs of Your Project.",
         ]}
         imageLeft={true}
         className=""
@@ -63,10 +63,9 @@ const Home: React.FC = () => {
         heading="GLOBAL REACH, REGULATORY READY"
         subheading="We Develop Games In Full Compliance With:"
         paragraphLines={[
-          "MGA (Malta)",
-          "UKGC (UK)",
-          "Ontario, Romania, Philippines, Anjouan, Vanuatu",
-          "Certified By: NGL, ITechLabs, GLI",
+          "Anjouan,", "Vanuatu",
+          "Certified By: NglCert",
+          "Coming soon: Ontario, Romania, Philippines, UKGC (UK), MGA (Malta)",
         ]}
         imageLeft={true}
         className=""
@@ -78,7 +77,7 @@ const Home: React.FC = () => {
         heading="BUILT WITH THE BEST TOOLS"
         subheading=""
         paragraphLines={[
-          "HTML5, Unity, JavaScript",
+          "HTML5, Unity, PixiJS, JavaScript",
           "RGS-Ready Games",
           "Fully Mobile & Desktop Compatible",
           "Integrated With Payment Gateways",

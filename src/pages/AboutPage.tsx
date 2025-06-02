@@ -130,7 +130,7 @@ const AboutPage: React.FC = () => {
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 relative">
         {/* Centered Heading */}
         <h2 className="text-3xl sm:text-4xl font-extrabold text-white mb-12 text-center">
-          ABOUT <span className="text-[#FF6B6B]">BASTA PLAY</span>
+          ABOUT <span className="text-[#FF6B6B]">Basta Games Studio</span>
         </h2>
         <div className="">
           <img
