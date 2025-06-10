@@ -162,8 +162,8 @@ const GameDetails: React.FC = () => {
   }
 
   return (
-    <div className="min-h-screen bg-[#1A1A1A] text-white py-20">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen bg-[#1A1A1A] text-white flex items-center justify-center">
+      <div className="max-w-7xl w-full px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div className="relative">
             <img
@@ -177,7 +177,7 @@ const GameDetails: React.FC = () => {
               {decodedGameName}
             </h1>
             <p className="text-lg text-gray-300">{game.description}</p>
-            <div className="grid grid-cols-3 gap-4 text-center mt-6 p-4 bg-[#28292C] rounded-lg w-fit">
+            <div className="grid grid-cols-3 gap-4 text-center mt-6 p-4 bg-[#28292C] rounded-lg w-full">
               <div>
                 <p className="text-sm text-gray-400">Category</p>
                 <p className="text-xl font-bold text-white">{game.category}</p>
@@ -196,13 +196,13 @@ const GameDetails: React.FC = () => {
             <div className="flex gap-4">
               <button
                 onClick={() => handleGameClick(game.url)}
-                className="bg-[#FFC107] text-black px-6 py-3 rounded-md hover:bg-[#FFD54F] transition-colors duration-300"
+                className="bg-[#FFC107] text-black px-6 py-3 rounded-md hover:bg-[#FFD54F] transition-colors duration-300 select-none"
               >
                 Play Demo
               </button>
               <button
-                onClick={() => navigate("/")}
-                className="bg-[#28292C] text-white px-6 py-3 rounded-md hover:bg-[#23263a] transition-colors duration-300"
+                onClick={() => navigate(-1)}
+                className="bg-[#28292C] text-white px-6 py-3 rounded-md hover:bg-[#23263a] transition-colors duration-300 select-none"
               >
                 Back to Games
               </button>

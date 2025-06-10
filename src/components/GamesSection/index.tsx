@@ -152,7 +152,13 @@ const GamesSection: React.FC<GamesSectionProps> = ({ hideFilterBar }) => {
         {/* Games Grid - 5 Images per Row */}
         <div className="flex sm:grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2 sm:gap-6 overflow-x-auto sm:overflow-hidden">
           {games.map((game, index) => (
-            <div key={index} className="flex-shrink-0 w-[85%] sm:w-auto group ">
+            <div
+              key={index}
+              className="flex-shrink-0 w-[85%] sm:w-auto group cursor-pointer"
+              onClick={() =>
+                navigate(`/game-details/${encodeURIComponent(game.name)}`)
+              }
+            >
               <div className="relative">
                 <img
                   src={game.image}
@@ -161,16 +167,22 @@ const GamesSection: React.FC<GamesSectionProps> = ({ hideFilterBar }) => {
                 />
                 <div className="absolute bottom-0 left-0 right-0 flex justify-between p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   <button
-                    onClick={() => handleGameClick(game.url)}
-                    className="bg-[#FFC107] text-black px-4 py-2 rounded-md hover:bg-[#FFD54F] transition-colors duration-300 select-none"
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      handleGameClick(game.url);
+                    }}
+                    className="bg-[#FFC107] text-black px-4 py-2 rounded-md hover:bg-[#FFD54F] transition-colors duration-300 select-none relative z-10"
                   >
                     Demo
                   </button>
                   <button
-                    onClick={() =>
-                      navigate(`/game-details/${encodeURIComponent(game.name)}`)
-                    }
-                    className="bg-[#28292C] text-white px-4 py-2 rounded-md hover:bg-[#23263a] transition-colors duration-300 select-none"
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      navigate(
+                        `/game-details/${encodeURIComponent(game.name)}`
+                      );
+                    }}
+                    className="bg-[#28292C] text-white px-4 py-2 rounded-md hover:bg-[#23263a] transition-colors duration-300 select-none relative z-10"
                   >
                     Details
                   </button>
