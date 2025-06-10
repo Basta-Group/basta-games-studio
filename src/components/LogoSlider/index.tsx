@@ -60,7 +60,7 @@ const LogoSlider: React.FC = () => {
       {
         breakpoint: 640,
         settings: {
-          slidesToShow: 2, // Updated to show 2 slides on smaller screens
+          slidesToShow: 2,
         },
       },
     ],
@@ -68,7 +68,7 @@ const LogoSlider: React.FC = () => {
 
   return (
     <section
-      className={`text-white bg-[#1A1A1A]  py-17 md:pt-30   width-[100%]  px-6 bg-cover bg-no-repeat bg-top  `}
+      className={`text-white bg-[#1A1A1A] py-17 md:pt-30 width-[100%]  px-6 bg-cover bg-no-repeat bg-top  `}
       style={{ backgroundImage: `url(${bgImage})` }}
     >
       {" "}

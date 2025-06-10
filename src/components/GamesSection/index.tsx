@@ -1,17 +1,29 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import FilterBar from "../FilterBar";
-import game1 from "../../assets/game-images/basta-game-1.jpg";
-import game2 from "../../assets/game-images/basta-game-2.jpg";
-import game3 from "../../assets/game-images/basta-game-10.jpg";
-import game4 from "../../assets/game-images/basta-game-4.jpg";
-import game5 from "../../assets/game-images/basta-game-5.jpg";
-import game6 from "../../assets/game-images/basta-game-7.jpg";
-import game7 from "../../assets/game-images/basta-game-8.jpg";
-import game8 from "../../assets/game-images/basta-game-9.jpg";
+import game1 from "../../assets/game-images/Fruit-jewels.png";
+import game2 from "../../assets/game-images/gate-of-eternity.png";
+import game3 from "../../assets/game-images/anibus.png";
+import game4 from "../../assets/game-images/basta-lucky-quest.png";
+import game5 from "../../assets/game-images/barking-bonaza.png";
+import game6 from "../../assets/game-images/princess-of-atlanis.png";
+import game7 from "../../assets/game-images/amigo.png";
+import game8 from "../../assets/game-images/wrath-of-vikings.png";
+import game9 from "../../assets/game-images/basta-fortune.png";
+import game10 from "../../assets/game-images/savage-savannah.png";
+import game11 from "../../assets/game-images/horns-of-gold.png";
+import game12 from "../../assets/game-images/dragon-spirit.png";
+import game13 from "../../assets/game-images/tiki-empire.png";
 import bgImage from "../../assets/game-studio/black-bg.png";
 
 // Tab type definition
 type TabType = "Game Art" | "Game Math" | "Game Development" | "Game Animation";
+
+interface GameData {
+  image: string;
+  url: string;
+  name: string;
+}
 
 interface GamesSectionProps {
   hideFilterBar?: boolean;
@@ -19,6 +31,7 @@ interface GamesSectionProps {
 
 const GamesSection: React.FC<GamesSectionProps> = ({ hideFilterBar }) => {
   const [activeTab, setActiveTab] = useState<TabType>("Game Art");
+  const navigate = useNavigate();
 
   const tabs: TabType[] = [
     "Game Art",
@@ -27,18 +40,78 @@ const GamesSection: React.FC<GamesSectionProps> = ({ hideFilterBar }) => {
     "Game Animation",
   ];
 
-  const gameImages = [
-    game1, // BASTA MAGIC CASTLE
-    game2, // CANDY SPLASH
-    game3, // WILD GUARDIANS
-    game4, // VIKINGS SPIRIT
-    game5, // BASTA VIKINGS BATTLE
-    game6, // BASTA TACTICAL RUSH
-    game7, // NEON HUNT
-    game8, // TROPICAL BONANZA
-    game1, // Repeated: BASTA MAGIC CASTLE
-    game2, // Repeated: CANDY SPLASH
+  const games: GameData[] = [
+    {
+      image: game1,
+      url: "https://dev-games.progaindia.com/games/slots/fruityjewels/index.php?amount_type=1&session_id=&channel=&reality_check=60&full_site_code=pgstgvg&username=pg3&category=slotgames&language=en&game_name=fruityjewels&env=stg",
+      name: "Fruity Jewels",
+    },
+    {
+      image: game2,
+      url: "https://dev-games.progaindia.com/games/slots/gates_of_eternity/index.php?amount_type=1&session_id=&channel=&reality_check=60&full_site_code=pgstgvg&username=pg3&category=slotgames&language=en&game_name=gates_of_eternity&env=stg",
+      name: "Gate of Eternity",
+    },
+    {
+      image: game3,
+      url: "https://dev-games.progaindia.com/games/slots/anubisriches/index.php?amount_type=1&session_id=&channel=&reality_check=60&full_site_code=pgstgvg&username=pg3&category=slotgames&language=en&game_name=anubisriches&env=stg",
+      name: "Anubis Riches",
+    },
+    {
+      image: game4,
+      url: "https://dev-games.progaindia.com/games/slots/lucky_quest/index.php?amount_type=1&session_id=&channel=&reality_check=60&full_site_code=pgstgvg&username=pg3&category=slotgames&language=en&game_name=lucky_quest&env=stg",
+      name: "Lucky Quest",
+    },
+    {
+      image: game5,
+      url: "https://dev-games.progaindia.com/games/slots/barkingbonanza/index.php?amount_type=1&session_id=&channel=&reality_check=60&full_site_code=pgstgvg&username=pg3&category=slotgames&language=en&game_name=barkingbonanza&env=stg",
+      name: "Barking Bonanza",
+    },
+    {
+      image: game6,
+      url: "https://dev-games.progaindia.com/games/slots/princessofatlantis/index.php?amount_type=1&session_id=&channel=&reality_check=60&full_site_code=pgstgvg&username=pg3&category=slotgames&language=en&game_name=princessofatlantis&env=stg",
+      name: "Princess of Atlantis",
+    },
+    {
+      image: game7,
+      url: "https://dev-games.progaindia.com/games/slots/bastabailamosamigos/index.php?amount_type=1&session_id=&channel=&reality_check=60&full_site_code=pgstgvg&username=pg3&category=slotgames&language=en&game_name=bastabailamosamigos&env=stg",
+      name: "Bailamos Amigos",
+    },
+    {
+      image: game8,
+      url: "https://dev-games.progaindia.com/games/slots/wrathofthevikings/index.php?amount_type=1&session_id=&channel=&reality_check=60&full_site_code=pgstgvg&username=pg3&category=slotgames&language=en&game_name=wrathofthevikings&env=stg",
+      name: "Wrath Of Vikings",
+    },
+    {
+      image: game9,
+      url: "https://dev-games.progaindia.com/games/slots/bastacaptainphillsfortune/index.php?amount_type=1&session_id=&channel=&reality_check=60&full_site_code=pgstgvg&username=pg3&category=slotgames&language=en&game_name=bastacaptainphillsfortune&env=stg",
+      name: "Captain Phills Fortune",
+    },
+    {
+      image: game10,
+      url: "https://dev-games.progaindia.com/games/slots/bastasavagesavannah/index.php?amount_type=1&session_id=&channel=&reality_check=60&full_site_code=pgstgvg&username=pg3&category=slotgames&language=en&game_name=bastasavagesavannah&env=stg",
+      name: "Savage Savannah",
+    },
+    {
+      image: game11,
+      url: "https://dev-games.progaindia.com/games/slots/bastahornsofgold/index.php?amount_type=1&session_id=&channel=&reality_check=60&full_site_code=pgstgvg&username=pg3&category=slotgames&language=en&game_name=bastahornsofgold&env=stg",
+      name: "Horns Of Gold",
+    },
+    {
+      image: game12,
+      url: "https://dev-games.progaindia.com/games/slots/bastasecretofthedragonspirit/index.php?amount_type=1&session_id=&channel=&reality_check=60&full_site_code=pgstgvg&username=pg3&category=slotgames&language=en&game_name=bastasecretofthedragonspirit&env=stg",
+      name: "Secret of the Dragon Spirit",
+    },
+    {
+      image: game13,
+      url: "https://dev-games.progaindia.com/games/slots/thelosttikiempire/index.php?amount_type=1&session_id=&channel=&reality_check=60&full_site_code=pgstgvg&username=pg3&category=slotgames&language=en&game_name=thelosttikiempire&env=stg",
+      name: "The Lost Tiki Empire",
+    },
   ];
+
+  const handleGameClick = (gameUrl: string) => {
+    const encodedUrl = encodeURIComponent(gameUrl);
+    navigate(`/gamescreen/${encodedUrl}`);
+  };
 
   return (
     <section
@@ -78,13 +151,31 @@ const GamesSection: React.FC<GamesSectionProps> = ({ hideFilterBar }) => {
 
         {/* Games Grid - 5 Images per Row */}
         <div className="flex sm:grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2 sm:gap-6 overflow-x-auto sm:overflow-hidden">
-          {gameImages.map((image, index) => (
-            <div key={index} className="flex-shrink-0 w-[85%] sm:w-auto">
-              <img
-                src={image}
-                alt={`Game ${index + 1}`}
-                className="w-full h-auto rounded-lg"
-              />
+          {games.map((game, index) => (
+            <div key={index} className="flex-shrink-0 w-[85%] sm:w-auto group ">
+              <div className="relative">
+                <img
+                  src={game.image}
+                  alt={game.name}
+                  className="w-full h-[300px] object-contain rounded-lg transition-transform duration-300 group-hover:scale-105"
+                />
+                <div className="absolute bottom-0 left-0 right-0 flex justify-between p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  <button
+                    onClick={() => handleGameClick(game.url)}
+                    className="bg-[#FFC107] text-black px-4 py-2 rounded-md hover:bg-[#FFD54F] transition-colors duration-300 select-none"
+                  >
+                    Demo
+                  </button>
+                  <button
+                    onClick={() =>
+                      navigate(`/game-details/${encodeURIComponent(game.name)}`)
+                    }
+                    className="bg-[#28292C] text-white px-4 py-2 rounded-md hover:bg-[#23263a] transition-colors duration-300 select-none"
+                  >
+                    Details
+                  </button>
+                </div>
+              </div>
             </div>
           ))}
         </div>
