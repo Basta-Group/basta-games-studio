@@ -14,6 +14,13 @@ import game10 from "../../assets/game-images/savage-savannah.png";
 import game11 from "../../assets/game-images/horns-of-gold.png";
 import game12 from "../../assets/game-images/dragon-spirit.png";
 import game13 from "../../assets/game-images/tiki-empire.png";
+import game14 from "../../assets/game-images/wild-blossom.png";
+import game15 from "../../assets/game-images/weil-magic.png";
+import game16 from "../../assets/game-images/shadow-syndicate.png";
+import game17 from "../../assets/game-images/basta-princess.png";
+import game18 from "../../assets/game-images/gate-eternity.png";
+import game19 from "../../assets/game-images/basta-wrath.png";
+import game20 from "../../assets/game-images/sand-quest.png";
 import bgImage from "../../assets/game-studio/black-bg.png";
 
 // Tab type definition
@@ -105,6 +112,41 @@ const GamesSection: React.FC<GamesSectionProps> = ({ hideFilterBar }) => {
       image: game13,
       url: "https://dev-games.progaindia.com/games/slots/thelosttikiempire/index.php?amount_type=1&session_id=&channel=&reality_check=60&full_site_code=pgstgvg&username=pg3&category=slotgames&language=en&game_name=thelosttikiempire&env=stg",
       name: "The Lost Tiki Empire",
+    },
+    {
+      image: game14,
+      url: "https://dev-games.progaindia.com/games/slots/wildblossom/index.php?amount_type=4&session_id=&channel=&reality_check=60&full_site_code=pgstgvg&username=pg3&category=slotgames&language=en&game_name=wildblossom&env=stg",
+      name: "Wild Blossom",
+    },
+    {
+      image: game15,
+      url: "https://dev-games.progaindia.com/games/slots/bastaveilofmagic/index.php?amount_type=1&session_id=&channel=&reality_check=60&full_site_code=pgstgvg&username=pg3&category=slotgames&language=en&game_name=bastaveilofmagic&env=stg",
+      name: "Veil of Magic",
+    },
+    {
+      image: game16,
+      url: "https://dev-games.progaindia.com/games/slots/bastashadowsyndicate/index.php?amount_type=1&session_id=&channel=&reality_check=60&full_site_code=pgstgvg&username=pg3&category=slotgames&language=en&game_name=bastashadowsyndicate&env=stg",
+      name: "Shadow Syndicate",
+    },
+    {
+      image: game17,
+      url: "https://dev-games.progaindia.com/games/slots/princessofatlantis1000/index.php?amount_type=1&session_id=&channel=&reality_check=60&full_site_code=pgstgvg&username=pg3&category=slotgames&language=en&game_name=princessofatlantis1000&env=stg",
+      name: "Princess of Atlantis 1000",
+    },
+    {
+      image: game18,
+      url: "https://dev-games.progaindia.com/games/slots/gatesofeternity1000/index.php?amount_type=1&session_id=&channel=&reality_check=60&full_site_code=pgstgvg&username=pg3&category=slotgames&language=en&game_name=gatesofeternity1000&env=stg",
+      name: "Gate of Eternity 1000",
+    },
+    {
+      image: game19,
+      url: "https://dev-games.progaindia.com/games/slots/wrathofthevikings5000/index.php?amount_type=1&session_id=&channel=&reality_check=60&full_site_code=pgstgvg&username=pg3&category=slotgames&language=en&game_name=wrathofthevikings5000&env=stg",
+      name: "Wrath of the Vikings 5000",
+    },
+    {
+      image: game20,
+      url: "https://dev-games.progaindia.com/games/slots/thesandsquest/index.php?amount_type=1&session_id=&channel=&reality_check=60&full_site_code=pgstgvg&username=pg3&category=slotgames&language=en&game_name=thesandsquest&env=stg",
+      name: "The Sands Quest",
     },
   ];
 
