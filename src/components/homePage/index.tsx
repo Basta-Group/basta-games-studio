@@ -35,7 +35,7 @@ const Home: React.FC = () => {
         ]}
         imageLeft={true}
         className=""
-        imgClassName="pb-2 xl:scale-[1.5]"
+        imgClassName="pb-2 xl:scale-[1.5] "
       />
       {/* Popular Games Slider Section */}
       {/* <PopularGamesSection /> */}
@@ -63,7 +63,8 @@ const Home: React.FC = () => {
         heading="GLOBAL REACH, REGULATORY READY"
         subheading="We Develop Games In Full Compliance With:"
         paragraphLines={[
-          "Anjouan,", "Vanuatu",
+          "Anjouan,",
+          "Vanuatu",
           "Certified By: NglCert",
           "Coming soon: Ontario, Romania, Philippines, UKGC (UK), MGA (Malta)",
         ]}

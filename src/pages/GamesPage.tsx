@@ -11,7 +11,7 @@ const GamesPage: React.FC = () => {
 
       {/* All Games Section */}
       <section className="md:py-16 bg-[#181a29]">
-        <GamesSection />
+        <GamesSection /> 
       </section>
 
       {/* Contact Form Section */}

@@ -201,7 +201,7 @@ const GamesSection: React.FC<GamesSectionProps> = ({ hideFilterBar }) => {
                 navigate(`/game-details/${encodeURIComponent(game.name)}`)
               }
             >
-              <div className="relative">
+              <div className="relative inline-flex">
                 <img
                   src={game.image}
                   alt={game.name}
