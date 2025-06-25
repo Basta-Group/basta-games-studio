@@ -60,6 +60,7 @@ const gameDetails = {
     viewMode: "Portrait/Landscape",
     additionalDetails:
       "<p><strong>Match Anywhere Payouts:</strong> Wins don't require paylines, just match clusters.</p><p><strong>Free Spins Bonus:</strong> 10–50 spins triggered via Scatters.</p><p><strong>Multipliers:</strong> Special gems boost wins during bonus rounds.</p><p><strong>Buy Bonus Feature:</strong> Jump straight into Free Spins mode.</p><p><strong>Designed for Fast Play:</strong> Smooth gameplay, intuitive controls, instant fun.</p>",
+    maxBet: "€500",
   },
   "Gate of Eternity": {
     image: game2,
@@ -83,6 +84,7 @@ const gameDetails = {
     viewMode: "Portrait/Landscape",
     additionalDetails:
       "<p><strong>Tumble Feature:</strong> Winning symbols vanish, new ones drop in; continues until no wins remain.</p><p><strong>Multiplier Symbols:</strong> Random 2x–500x multipliers on all reels; total multiplies final win after tumbling ends.</p><p><strong>Free Spins:</strong> 4+ Scatters award 15 spins; 3+ Scatters add 5 more. Special reels enhance gameplay.</p><p><strong>Ante Bet:</strong> 25x doubles Scatter chances (Free Spins Purchase disabled); 20x enables Buy Free Spins (100x bet).</p><p><strong>Buy Free Spins:</strong> Instantly triggers Free Spins for 100x current bet (disabled with 25x Ante Bet).</p><p><strong>Optimized Controls:</strong> Quick Spin, Game Logs, customizable settings.</p>",
+    maxBet: "€500",
   },
   "Anubis Riches": {
     image: game3,
@@ -106,6 +108,7 @@ const gameDetails = {
     viewMode: "Portrait/Landscape",
     additionalDetails:
       "<p><strong>Scatter Symbol:</strong> Landing 3+ Scatter Symbols triggers Free Game with 10, 15, or 20 free spins (3=10, 4=15, 5=20).</p><p><strong>Wild Symbol:</strong> Substitutes for all symbols except Scatter; in main game, located on middle three reels.</p><p><strong>Free Game Features:</strong> Star collector (0–20 stars); every 4 stars unlocks features: Level 1: Sticky Wild Reel +1 spin, Level 2: Multiplier x2 +1 spin, Level 3: Second Sticky Wild Reel +2 spins, Level 4: Win Both Ways +2 spins, Level 5: Third Sticky Wild Reel +2 spins. Scatter on Sticky Wild Reel counts toward progress first.</p><p><strong>Paytable:</strong> Queen x5=1000, Scarab x5=450, Eye x5=300, A/K/Q/J x5=150; payouts scale with bet.</p><p><strong>Controls:</strong> Quick Spin, Game Logs, customizable settings via SETTINGS menu.</p>",
+    maxBet: "€500",
   },
   "Lucky Quest": {
     image: game4,
@@ -121,7 +124,6 @@ const gameDetails = {
     technology: "HTML5",
     wins: "Multiplied",
     maxWin: "500x Total Bet",
-    paylines: "25 fixed",
     minBet: "10 fixed coins",
     currencySupport: "Multi-currency + Crypto",
     languageSupport: "Multi-language",
@@ -129,6 +131,7 @@ const gameDetails = {
     viewMode: "Portrait/Landscape",
     additionalDetails:
       "<p><strong>Game Rules:</strong> Symbols pay anywhere; total number of same symbol at spin end determines win value. All symbols except Scatter pay left to right from the leftmost column; only highest win per line is paid. Payouts multiply by coin value.</p><p><strong>Scatter Symbol:</strong> Landing 3+ triggers free spins: 3 Scatter=2x total bet + 10 spins, 4 Scatter=10x total bet + 15 spins, 5 Scatter=100x total bet + 20 spins.</p><p><strong>Wild Symbol:</strong> Substitutes for all symbols except Scatter; in base game, appears on reels 2, 3, 4, and 5 only.</p><p><strong>Game Features:</strong> During base game, 1-4 reels (Reel 2 to Reel 5) may turn Wild randomly. Free game triggers with 3+ Scatters; players choose: 30 spins (1 Wild reel), 10 spins (2 Wild reels), 3 spins (3 Wild reels), or 1 spin (4 Wild reels).</p>",
+    maxBet: "€500",
   },
   "Barking Bonanza": {
     image: game5,
@@ -144,7 +147,6 @@ const gameDetails = {
     technology: "HTML5",
     wins: "Multiplied",
     maxWin: "15000x Total Bet",
-    paylines: "25 fixed",
     minBet: "$1",
     currencySupport: "Multi-currency + Crypto",
     languageSupport: "Multi-language",
@@ -152,6 +154,7 @@ const gameDetails = {
     viewMode: "Portrait/Landscape",
     additionalDetails:
       "<p><strong>Scatter Symbol:</strong> Appears on reels 1, 3, and 5. 3+ Bonus symbols pay 5x total bet and trigger Free Spins Round (10 spins). 4 Scatters=$1.50, 5 Scatters=$7.50, 6+ Scatters=$50.00.</p><p><strong>Game Rules:</strong> Symbols pay anywhere; total number of same symbol at spin end determines win value. All wins multiplied by base bet, expressed as actual wins in coins. When winning with multiple symbols, all wins add to total win.</p><p><strong>Wild Symbol:</strong> Substitutes for all symbols except Scatter, present only on reels 2, 3, and 4. All Wilds on same reel have random 2x or 3x multiplier; if multiple Wilds on a payline, multipliers add to each other.</p><p><strong>Free Spins Rules:</strong> Awarded with 4+ Scatters anywhere on screen, starting with 10 free spins. During Free Spins, Multiplier value adds to total Multiplier on winning spins, multiplying the win. 3+ Scatters during Free Spins award 5 additional spins. Special reels in play.</p>",
+    maxBet: "€500",
   },
   "Princess of Atlantis": {
     image: game6,
@@ -167,7 +170,6 @@ const gameDetails = {
     technology: "HTML5",
     wins: "Multiplied",
     maxWin: "10000x Total Bet",
-    paylines: "25 fixed",
     minBet: "€1",
     currencySupport: "Multi-currency + Crypto",
     languageSupport: "Multi-language",
@@ -175,6 +177,7 @@ const gameDetails = {
     viewMode: "Portrait/Landscape",
     additionalDetails:
       "<p><strong>Multiplier Symbols:</strong> Present on all reels, hit randomly during spins and tumbles in both base game and Free Spins. Values range from 2x to 500x (2x, 3x, 4x, 5x, 6x, 8x, 10x, 12x, 15x, 20x, 25x, 50x, 100x, 250x, 500x). Total win multiplies by the sum of all Multiplier values at sequence end.</p><p><strong>Free Spins Rules:</strong> Awarded with 4+ Scatter symbols, starting with 10 free spins. Each Multiplier hit during a winning spin adds to the total multiplier; 3+ Scatters add 5 more spins. Special reels apply. Ante Bet options: 25x doubles Scatter chances (Free Spins Purchase disabled), 20x enables Buy Free Spins (100x bet).</p><p><strong>Paytable:</strong> Pearl x12+=€50.00, Trident x12+=€25.00, Jellyfish x12+=€12.00, Treasure x12+=€12.00, A x12+=€10.00, K x12+=€8.00, Q x12+=€5.00, J x12+=€4.00, 10 x12+=€2.00; 4 Scatters=€3.00, 5 Scatters=€5.00, 6+ Scatters=€100.00.</p>",
+    maxBet: "€500",
   },
   "Bailamos Amigos": {
     image: game7,
@@ -190,13 +193,13 @@ const gameDetails = {
     technology: "HTML5",
     wins: "Multiplied",
     maxWin: "500x Total Bet",
-    paylines: "25 fixed",
     minBet: "10 fixed coins",
     currencySupport: "Multi-currency + Crypto",
     languageSupport: "Multi-language",
     freeSpinsStart: "10 Spins",
     viewMode: "Portrait/Landscape",
     additionalDetails: `<p><strong>Game Rules:</strong> Symbols pay anywhere; total number of same symbol at spin end determines win value. All symbols except Scatter pay left to right from the leftmost column; only highest win per line is paid. Payouts multiply by coin value.</p><p><strong>Scatter Symbol:</strong> Landing 3+ triggers free spins: 3 Scatter=2x total bet + 10 spins, 4 Scatter=10x total bet + 15 spins, 5 Scatter=100x total bet + 20 spins.</p><p><strong>Wild Symbol:</strong> Substitutes for all symbols except Scatter; in base game, appears on reels 2, 3, 4, and 5 only.</p><p><strong>Game Features:</strong> During base game, 1-4 reels (Reel 2 to Reel 5) may turn Wild randomly. Free game triggers with 3+ Scatters; play continues with special features.</p>`,
+    maxBet: "€500",
   },
   "Wrath Of Vikings": {
     image: game8,
@@ -212,13 +215,13 @@ const gameDetails = {
     technology: "HTML5",
     wins: "Multiplied",
     maxWin: "5000x Total Bet",
-    paylines: "25 fixed",
     minBet: "€0.20 - €125",
     currencySupport: "Multi-currency + Crypto",
     languageSupport: "Multi-language",
     freeSpinsStart: "10 Spins",
     viewMode: "Portrait/Landscape",
     additionalDetails: "",
+    maxBet: "€500",
   },
   "Captain Phills Fortune": {
     image: game9,
@@ -234,7 +237,6 @@ const gameDetails = {
     technology: "HTML5",
     wins: "Multiplied",
     maxWin: "Up to 250x base",
-    paylines: "20 fixed",
     minBet: "10 fixed coins",
     currencySupport: "Multi-currency",
     languageSupport: "Multilingual",
@@ -242,6 +244,7 @@ const gameDetails = {
     viewMode: "Portrait/Landscape",
     additionalDetails:
       "<p><strong>Wild Symbol with Multipliers:</strong> Appears only on reels 2, 3, and 4. Every wild carries a random multiplier of 2x or 3x. If more than one wild is part of a win, their multipliers combine for massive payouts.</p><p><strong>Bonus Symbol / Free Spins Trigger:</strong> Bonus ship symbols appear on reels 1, 3, and 5. Hitting 3 Bonus Symbols awards 5x total bet and activates Free Spins round.</p><p><strong>Free Spins Feature:</strong> Triggered with 4 or more Scatter symbols, starts with 10 Free Spins. Every multiplier symbol that lands during a winning spin adds to the total multiplier. New multiplier hits during free spins continue to stack. 3 or more Scatters during the round award +5 extra spins.</p><p><strong>High Volatility Mode:</strong> Designed for adventurous players—payouts are less frequent but have a higher chance of big wins in short bursts.</p>",
+    maxBet: "€500",
   },
   "Savage Savannah": {
     image: game10,
@@ -257,7 +260,6 @@ const gameDetails = {
     technology: "HTML5",
     wins: "Multiplied",
     maxWin: "1000x",
-    paylines: "25 fixed",
     minBet: "€0.10",
     currencySupport: "Multi-currency",
     languageSupport: "Multilingual",
@@ -265,6 +267,7 @@ const gameDetails = {
     viewMode: "Landscape",
     additionalDetails:
       "<p><strong>Free Spins Feature:</strong> Landing 3 or more Scatter symbols triggers Free Game Mode.</p><p><strong>Sticky Wilds & Progression System:</strong> Collect stars (0–20) during Free Games to unlock upgrades.</p><p><strong>Wild Symbol:</strong> Appears on middle 3 reels, substitutes all symbols except Scatter.</p><p><strong>Paylines:</strong> 10 Fixed Paylines.</p><p><strong>Highest Symbol Payout:</strong> Up to x1000.</p>",
+    maxBet: "€500",
   },
   "Horns Of Gold": {
     image: game11,
@@ -280,7 +283,6 @@ const gameDetails = {
     technology: "HTML5",
     wins: "Multiplied",
     maxWin: "500x Total Bet",
-    paylines: "2304",
     minBet: "$1",
     currencySupport: "Multi-currency + Crypto",
     languageSupport: "Multi-language",
@@ -288,6 +290,7 @@ const gameDetails = {
     viewMode: "Portrait/Landscape",
     additionalDetails:
       "<p><strong>Wilds and Scatters:</strong> Buffalo symbols on reels 2–5 act as Wilds with x2–x4 multipliers on reels 2 or 3, multiplying if two appear.</p><p><strong>Mystery Symbol:</strong> Transforms into a random paying symbol (except Wilds/Scatters) after each spin on all reels.</p><p><strong>Free Spins:</strong> Purchase Kunoichi (80x bet, 3 Scatters) or Shinobi (200x bet, 4 Scatters) for instant triggers.</p><p><strong>Max Win:</strong> Capped at 10,000x bet, ending free spins round if reached.</p><p><strong>Ways to Win:</strong> 2,304 ways with 3 symbols on reels 1 and 6, and 4 on reels 2–5.</p>",
+    maxBet: "€500",
   },
   "Secret of the Dragon Spirit": {
     image: game12,
@@ -303,7 +306,6 @@ const gameDetails = {
     technology: "HTML5",
     wins: "Multiplied",
     maxWin: "500x Total Bet",
-    paylines: "25 fixed",
     minBet: "$0.05",
     currencySupport: "Multi-currency + Crypto",
     languageSupport: "Multi-language",
@@ -311,6 +313,7 @@ const gameDetails = {
     viewMode: "Portrait/Landscape",
     additionalDetails:
       "<p><strong>Wild Symbol:</strong> The Dragon Spirit acts as a Wild, substituting for all symbols and expanding to cover entire reels for bigger wins.</p><p><strong>Scatter Symbol:</strong> Landing 3+ Dragon Egg Scatters triggers free spins with increasing multipliers.</p><p><strong>Free Spins:</strong> Awarded with 3+ Scatters, starting with 10 spins and a x1 multiplier that grows with each win.</p><p><strong>Mystery Respins:</strong> Randomly triggered, locking high-value symbols for respins with guaranteed wins.</p><p><strong>Max Win:</strong> Capped at 1,000x the bet, offering massive reward potential.</p>",
+    maxBet: "€500",
   },
   "The Lost Tiki Empire": {
     image: game13,
@@ -325,14 +328,15 @@ const gameDetails = {
     platforms: ["Apple", "Android", "Desktop"],
     technology: "HTML5",
     wins: "Multiplied",
-    maxWin: "500x Total Bet",
-    paylines: "25 fixed",
-    minBet: "10 fixed coins",
+    maxWin: "256x",
+    minBet: "€1",
     currencySupport: "Multi-currency + Crypto",
     languageSupport: "Multi-language",
     freeSpinsStart: "10 Spins",
     viewMode: "Portrait/Landscape",
-    additionalDetails: "",
+    additionalDetails:
+      "<p><strong>Tumble Feature:</strong> Winning combinations disappear; new symbols drop in to fill gaps. Tumbling continues until no more wins are formed.</p><p><strong>Random Multiplier Feature:</strong> Symbols in winning clusters may carry 2x or 4x multipliers. Multipliers multiply together—up to a maximum of 256x!</p><p><strong>Free Spins Feature:</strong> Triggered by landing 3+ SCATTER symbols anywhere. Starts with 10 free spins, retriggerable with increasing free spins per additional scatter.</p><p><strong>Buy Free Spins:</strong> Players can purchase the Free Spins round directly for 100x current total bet.</p><p><strong>Scatter Symbol:</strong> Pays from any position, not just paylines.</p>",
+    maxBet: "€500",
   },
   "Wild Blossom": {
     image: game14,
@@ -348,7 +352,6 @@ const gameDetails = {
     technology: "HTML5",
     wins: "Multiplied",
     maxWin: "256x",
-    paylines: "25 fixed",
     minBet: "$1",
     currencySupport: "Multi-currency + Crypto",
     languageSupport: "Multi-language",
@@ -356,6 +359,7 @@ const gameDetails = {
     viewMode: "Portrait",
     additionalDetails:
       "<p><strong>Tumble Feature:</strong> Winning combinations disappear, and new symbols fall, continuing until no more wins appear.</p><p><strong>Random Multiplier Feature:</strong> Symbols in winning clusters may carry 2x or 4x multipliers, with a maximum of 256x during free spins.</p><p><strong>Free Spins Rules:</strong> Triggered by 3+ Scatter symbols, starting with 10 free spins, with additional spins on re-triggers.</p><p><strong>Buy Free Spins:</strong> Instantly trigger free spins by purchasing for 100x the current total bet.</p>",
+    maxBet: "€500",
   },
   "Veil of Magic": {
     image: game15,
@@ -371,13 +375,13 @@ const gameDetails = {
     technology: "HTML5",
     wins: "Multiplied",
     maxWin: "500x Total Bet",
-    paylines: "25 fixed",
     minBet: "10 fixed coins",
     currencySupport: "Multi-currency + Crypto",
     languageSupport: "Multi-language",
     freeSpinsStart: "10 Spins",
     viewMode: "Portrait/Landscape",
     additionalDetails: "",
+    maxBet: "€500",
   },
   "Shadow Syndicate": {
     image: game16,
@@ -393,7 +397,6 @@ const gameDetails = {
     technology: "HTML5",
     wins: "Multiplied",
     maxWin: "10000x Total Bet",
-    paylines: "25 fixed",
     minBet: "€1.00",
     currencySupport: "Multi-currency + Crypto",
     languageSupport: "Multi-language",
@@ -401,6 +404,7 @@ const gameDetails = {
     viewMode: "Portrait/Landscape",
     additionalDetails:
       "<p><strong>Multi-character Wild/Scatter Symbols:</strong> Each gangster acts as a wild with a random multiplier (x2, x3, x4).</p><p><strong>Mystery Symbols:</strong> Random symbols drop and transform into one matching symbol.</p><p><strong>Buy Free Spins Option:</strong> Instantly enter bonus rounds with 80x or 200x total bet.</p><p><strong>Optimized Controls:</strong> Autoplay, Quick Spin, Bet Menu, Game Logs.</p><p><strong>Two Free Spins Modes:</strong><br>1. <strong>Kunoichi Mode</strong> (3 scatters): Sticky wild multipliers<br>2. <strong>Shinobi Mode</strong> (4 scatters): Expanded 6x4 grid and increased win ways (4096).</p>",
+    maxBet: "€500",
   },
   "Princess of Atlantis 1000": {
     image: game17,
@@ -416,13 +420,13 @@ const gameDetails = {
     technology: "HTML5",
     wins: "Multiplied",
     maxWin: "500x Total Bet",
-    paylines: "25 fixed",
     minBet: "10 fixed coins",
     currencySupport: "Multi-currency + Crypto",
     languageSupport: "Multi-language",
     freeSpinsStart: "10 Spins",
     viewMode: "Portrait/Landscape",
     additionalDetails: "",
+    maxBet: "€500",
   },
   "Gate of Eternity 1000": {
     image: game18,
@@ -438,13 +442,13 @@ const gameDetails = {
     technology: "HTML5",
     wins: "Multiplied",
     maxWin: "500x Total Bet",
-    paylines: "25 fixed",
     minBet: "10 fixed coins",
     currencySupport: "Multi-currency + Crypto",
     languageSupport: "Multi-language",
     freeSpinsStart: "10 Spins",
     viewMode: "Portrait/Landscape",
     additionalDetails: "",
+    maxBet: "€500",
   },
   "Wrath of the Vikings 5000": {
     image: game19,
@@ -460,13 +464,13 @@ const gameDetails = {
     technology: "HTML5",
     wins: "Multiplied",
     maxWin: "500x Total Bet",
-    paylines: "25 fixed",
     minBet: "10 fixed coins",
     currencySupport: "Multi-currency + Crypto",
     languageSupport: "Multi-language",
     freeSpinsStart: "10 Spins",
     viewMode: "Portrait/Landscape",
     additionalDetails: "",
+    maxBet: "€500",
   },
   "The Sands Quest": {
     image: game20,
@@ -482,7 +486,6 @@ const gameDetails = {
     technology: "HTML5",
     wins: "Multiplied",
     maxWin: "15000x Total Bet",
-    paylines: "Anywhere",
     minBet: "€1",
     currencySupport: "Multi-currency + Crypto",
     languageSupport: "Multi-language",
@@ -490,6 +493,7 @@ const gameDetails = {
     viewMode: "Portrait/Landscape",
     additionalDetails:
       "<p><strong>Game Rules:</strong> Symbols pay anywhere; total number of same symbol at spin end determines win value. All wins multiplied by base bet, expressed as actual wins in coins. When winning with multiple symbols, all wins add to total win.</p><p><strong>Scatter Symbol:</strong> Present on all reels, pays on any position. 4 Scatters=€1,500.00, 5 Scatters=€2,500.00, 6+ Scatters=€50,000.00.</p><p><strong>Multiplier Symbols:</strong> Appear on all reels during spins and tumbles in base game and Free Spins. Random values from 2x to 500x; total win multiplied by the sum of all Multiplier values at sequence end.</p><p><strong>Free Spins Rules:</strong> Awarded with 4+ Scatters, starting with 10 free spins. Multiplier value adds to total Multiplier on winning spins, multiplying the win. 3+ Scatters during Free Spins award 5 additional spins. Special reels in play.</p>",
+    maxBet: "€500",
   },
 };
 
@@ -596,7 +600,7 @@ const GameDetails: React.FC = () => {
               {(() => {
                 const infoData = [
                   { label: "Max Win", value: game.maxWin },
-                  { label: "Paylines", value: game.paylines },
+                  { label: "Max Bet", value: game.maxBet },
                   { label: "Min Bet", value: game.minBet },
                   { label: "Currency Support", value: game.currencySupport },
                   { label: "Language Support", value: game.languageSupport },
